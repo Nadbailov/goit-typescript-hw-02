@@ -1,0 +1,48 @@
+/* SearchBar.module.css */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #5a6268;
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}

@@ -1,0 +1,36 @@
+.loadMoreButton {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #6c757d;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.loadMoreButton:hover {
+    border-color: #646cff;
+}
+
+.loadMoreButton:focus,
+.loadMoreButton:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    .loadMoreButton {
+        background-color: #f9f9f9;
+    }
+}

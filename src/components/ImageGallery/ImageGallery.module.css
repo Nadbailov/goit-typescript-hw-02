@@ -1,0 +1,21 @@
+/* ImageGallery.module.css */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item {
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
